@@ -9,7 +9,7 @@
         <div class="col-lg-2 col-lg-offset-2 text-center">
             <address>
                 <a class="text-primary" href="tel:{{site.phone}}">
-                    <i class="fas fa-phone fa-3x wow bounceIn" data-wow-delay=".1s"></i><br />
+                  <i class="fas fa-phone fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
                     {{site.phone}}
                 </a>
             </address>
@@ -17,18 +17,18 @@
         <div class="col-lg-2 col-lg-offset-1 text-center">
             <address>
                 <a class="text-primary" href="https://maps.google.com/?q={{ mailto:{{ "" | append: site.address.street | append: " " | append: site.address.city | append: ", " | append: site.address.state | append: " " | append: site.address.zip | url_encode }}" target="_blank">
-                    <i class="fas fa-address-card fa-3x wow bounceIn" data-wow-delay=".1s"></i><br />
-                        <strong>{{site.address.name}}</strong><br>
-                        {{site.address.street}}<br>
-                        {{site.address.city}}, {{site.address.state}} {{site.address.zip}}
+                    <i class="fas fa-address-card fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
+                    <strong>{{site.address.name}}</strong><br>
+                    {{site.address.street}}<br>
+                    {{site.address.city}}, {{site.address.state}} {{site.address.zip}}
                 </a>
             </address>
         </div>
         <div class="col-lg-2 col-lg-offset-1 text-center">
             <address>
                 <a class="text-primary" href="mailto:{{ site.email }}">
-                <i class="fas fa-envelope fa-3x wow bounceIn" data-wow-delay=".1s"></i><br />
-                    <p>{{ site.email }}</p>
+                    <i class="fas fa-envelope fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
+                    {{ site.email }}
                 </a>
             </address>
         </div>
