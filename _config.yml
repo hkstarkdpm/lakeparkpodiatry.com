@@ -2,6 +2,26 @@
 title: Lake Park Podiatry
 email: lakeparkpodiatry@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
+  Lake Park Podiatry is a podiatry practice in Lake Park, Florida.
+  Dr. Henry Stark DPM specializes in treating foot pain and ankle pain.
+  He is available for appointments and accepts most insurance plans.
+  Contact the podiatrists at Lake Park Podiatry today.
+
+image: "https://lakeparkpodiatry.com/img/header.jpg"
+keywords:
+  - podiatrists
+  - foot doctors
+  - podiatry
+  - boynton beach
+  - jupiter
+  - loxahatchee
+  - palm beach gardens
+  - west palm beach
+  - palm beach county
+  - foot pain
+  - ankle pain
+  - podiatrist
+
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
