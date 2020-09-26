@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-    border-color: $theme-primary;
+    border-color: $theme-primary !important;
     border-width: 3px;
     max-width: 50px;
 }
@@ -21,16 +21,16 @@ hr.light {
 a {
     @include transition-all;
     &.text-primary {
-        color: $theme-primary;
+        color: $theme-primary !important;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: darken($theme-primary, 10%) !important;
         }
     }
     &.text-faded {
         &:hover,
         &:focus {
-            color: rgba(0, 0, 0, 1);
+            color: rgba(0, 0, 0, 1) !important;
         }
     }
 }
@@ -51,7 +51,7 @@ p {
 }
 
 .bg-primary {
-    background-color: $theme-primary;
+    background-color: $theme-primary !important;
 }
 
 .bg-dark {
@@ -85,13 +85,13 @@ aside {
     @include sans-serif-font;
     @include transition-all;
     .navbar-brand {
-        color: $theme-primary;
+        //color: lighten($theme-primary, 10%) !important;
         @include sans-serif-font;
         font-weight: 700;
         text-transform: uppercase;
         &:hover,
         &:focus {
-            color: darken($theme-primary, 10%);
+            color: lighten($theme-primary, 20%) !important;
         }
     }
     li.nav-item {
@@ -101,8 +101,9 @@ aside {
             font-weight: 700;
             font-size: 13px;
             color: $theme-dark;
-            &:hover {
-                color: $theme-primary;
+            &:hover,
+            &:focus {
+                color: lighten($theme-primary, 20%) !important;
             }
         }
         &.active {
@@ -147,14 +148,14 @@ aside {
                 font-size: 14px;
                 &:hover,
                 &:focus {
-                    color: darken($theme-primary, 10%);
+                    color: darken($theme-primary, 10%) !important;
                 }
             }
             li.nav-item > a,
             li.nav-item > a:focus {
                 color: $theme-dark;
                 &:hover {
-                    color: $theme-primary;
+                    color: $theme-primary !important;
                 }
             }
             .navbar-brand {
@@ -316,7 +317,7 @@ header {
 
 // Bootstrap Overrides
 .text-primary {
-    color: $theme-primary;
+    color: $theme-primary !important;
 }
 
 .no-gutter > [class*='col-'] {
@@ -347,7 +348,7 @@ header {
 
 // Contact
 #contact .fa {
-    color: $theme-dark;
+    color: $theme-dark !important;
     font-size: 4em;
 }
 
