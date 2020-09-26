@@ -23,7 +23,7 @@ keywords:
   - podiatrist
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+url: "https://lakeparkpodiatry.com" # the base hostname & protocol for your site
 
 phone: +1 (561) 284-6886
 address:
@@ -35,3 +35,6 @@ address:
 
 # Build settings
 markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
