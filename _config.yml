@@ -5,13 +5,13 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
-phone: +1(561)848-7799
+phone: +1 (561) 848-7722
 address:
   name: Lake Park Podiatry
   street: 701 Park Avenue
   city: Lake Park
   state: FL
-  zip: 33401
+  zip: 33403-2503
 
 # Build settings
 markdown: kramdown
