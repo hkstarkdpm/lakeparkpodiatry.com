@@ -10,7 +10,7 @@
             <address>
                 <a class="text-primary" href="tel:{{site.phone}}">
                   <i class="fas fa-phone fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
-                  <p>{{site.phone}}</p>
+                  <span>{{site.phone}}</span>
                 </a>
             </address>
         </div>
@@ -18,11 +18,11 @@
             <address>
                 <a class="text-primary" href="https://maps.google.com/?q={{ mailto:{{ "" | append: site.address.street | append: " " | append: site.address.city | append: ", " | append: site.address.state | append: " " | append: site.address.zip | url_encode }}" target="_blank">
                     <i class="fas fa-address-card fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
-                    <p>
+                    <span>
                         <strong>{{site.address.name}}</strong><br>
                         {{site.address.street}}<br>
                         {{site.address.city}}, {{site.address.state}} {{site.address.zip}}
-                    </p>
+                    </span>
                 </a>
             </address>
         </div>
@@ -30,7 +30,7 @@
             <address>
                 <a class="text-primary" href="mailto:{{ site.email }}">
                     <i class="fas fa-envelope fa-4x wow bounceIn" data-wow-delay=".1s"></i><br /><br />
-                    <p>{{ site.email }}</p>
+                    <span>{{ site.email }}</span>
                 </a>
             </address>
         </div>
