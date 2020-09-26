@@ -35,12 +35,13 @@
         }
     );
 
-    // Offset for Main Navigation
-    $('#mainNav').affix({
-        offset: {
-            top: 100
-        }
-    })
+      $(window).on('scroll resize', function() {
+          if($(this).scrollTop() >= 100){
+              $('#mainNav').addClass('affix');
+          } else {
+              $('#mainNav').removeClass('affix');
+          }
+      });
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
