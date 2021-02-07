@@ -44,8 +44,8 @@ h6 {
     @include sans-serif-font;
 }
 
-p {
-    font-size: 16px;
+address span, p {
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
 }
@@ -99,7 +99,7 @@ aside {
         > a:focus {
             text-transform: uppercase;
             font-weight: 700;
-            font-size: 13px;
+            font-size: 14px;
             color: $theme-dark;
             &:hover,
             &:focus {
@@ -202,7 +202,7 @@ header {
             p {
                 font-weight: 300;
                 color: rgba(white, .7);
-                font-size: 16px;
+                font-size: 18px;
                 margin-bottom: 50px;
             }
         }
@@ -226,7 +226,7 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 p {
-                    font-size: 18px;
+                    font-size: 20px;
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
@@ -283,10 +283,10 @@ header {
             .project-category {
                 text-transform: uppercase;
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 16px;
             }
             .project-name {
-                font-size: 18px;
+                font-size: 20px;
             }
         }
     }
@@ -299,10 +299,10 @@ header {
         .portfolio-box-caption {
             .portfolio-box-caption-content {
                 .project-category {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
                 .project-name {
-                    font-size: 22px;
+                    font-size: 24px;
                 }
             }
         }
